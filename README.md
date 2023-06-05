@@ -42,6 +42,12 @@ This integrated metric aims to provide a comprehensive evaluation framework for 
 6. Contact me through my e-mail at michaelwenas@programmer.net
 7. I am yet to make additional features. If you're interested in the project, you can tip me at https://ko-fi.com/michaelwenas
 
+## Additional info
+
+1. The forms page button redirects to a Google Forms submission page. 
+2. The statistics page redirects to a view-only spreadsheet file where Bar charts can be seen. 
+3. The chatbot is using Dialogflow Messenger, but is really GPT-3 text-davinci-003 model hosted online using Node.js, and is connected via Webhook.
+
 ## Special thanks to
 
 Ed Roh

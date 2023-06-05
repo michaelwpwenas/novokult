@@ -82,10 +82,10 @@ const Navbar = () => {
               <LightMode sx={{ color: dark, fontSize: "25px" }} />
             )}
           </IconButton>
-          <IconButton onClick={() => navigate(`/kpiForm`)}>
+          <IconButton onClick={() => window.location.href = "https://forms.gle/c1zPQkkm8SFmtpzQ7"}>
           <ListAlt sx={{ fontSize: "25px" }} />
           </IconButton>
-          <IconButton onClick={() => navigate(`/kpiStats`)}>
+          <IconButton onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/1P7J0dnSNai-Fzm0o3euKsLc3aPk5FiJz6mZAKhPagpA/edit?usp=sharing"}>
           <InsertChart sx={{ fontSize: "25px" }} />
           </IconButton>
           <FormControl variant="standard" value={fullName}>
@@ -160,10 +160,10 @@ const Navbar = () => {
                 <LightMode sx={{ color: dark, fontSize: "25px" }} />
               )}
             </IconButton>
-            <IconButton onClick={() => navigate(`/kpiForm`)}>
+            <IconButton onClick={() => window.location.href = "https://forms.gle/c1zPQkkm8SFmtpzQ7"}>
             <ListAlt sx={{ fontSize: "25px" }} />
             </IconButton>
-            <IconButton onClick={() => navigate(`/kpiStats`)}>
+            <IconButton onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/1P7J0dnSNai-Fzm0o3euKsLc3aPk5FiJz6mZAKhPagpA/edit?usp=sharing"}>
             <InsertChart sx={{ fontSize: "25px" }} />
             </IconButton>
             <FormControl variant="standard" value={fullName}>

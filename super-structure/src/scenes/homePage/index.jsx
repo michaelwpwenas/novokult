@@ -44,10 +44,10 @@ const HomePage = () => {
       <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
       </Helmet>
       <df-messenger
-        intent="WELCOME"
-        chat-title="NovoBot"
-        agent-id="0b93e959-953a-44fe-b854-6e7baca129e6"
-        language-code="en"
+      intent="WELCOME"
+      chat-title="NovoBot"
+      agent-id="0b93e959-953a-44fe-b854-6e7baca129e6"
+      language-code="en"
       ></df-messenger>
     </Box>
   );
