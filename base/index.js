@@ -20,7 +20,6 @@ import User from "./models/User.js";
 import Post from "./models/Post.js";
 import KPI from "./models/KPI.js";
 import { users, posts, kpis } from "./data/index.js";
-
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -68,8 +67,8 @@ mongoose
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
 
     /* ADD DATA ONE TIME */
-    // User.insertMany(users);
-    // Post.insertMany(posts);
-    // KPI.insertMany(kpis);
+  //   User.insertMany(users);
+  //   Post.insertMany(posts);
+  //   KPI.insertMany(kpis);
   })
   .catch((error) => console.log(`${error} did not connect`));

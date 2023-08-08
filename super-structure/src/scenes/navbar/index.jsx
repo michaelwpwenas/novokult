@@ -82,10 +82,10 @@ const Navbar = () => {
               <LightMode sx={{ color: dark, fontSize: "25px" }} />
             )}
           </IconButton>
-          <IconButton onClick={() => window.location.href = "https://forms.gle/c1zPQkkm8SFmtpzQ7"}>
+          <IconButton onClick={() => navigate("/form")}>
           <ListAlt sx={{ fontSize: "25px" }} />
           </IconButton>
-          <IconButton onClick={() => window.location.href = "https://docs.google.com/spreadsheets/d/1P7J0dnSNai-Fzm0o3euKsLc3aPk5FiJz6mZAKhPagpA/edit?usp=sharing"}>
+          <IconButton onClick={() => navigate("/stats")}>
           <InsertChart sx={{ fontSize: "25px" }} />
           </IconButton>
           <FormControl variant="standard" value={fullName}>
